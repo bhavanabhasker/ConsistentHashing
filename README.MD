@@ -50,7 +50,7 @@ Refers to the file in the folder server
 
 Execute the following in separate terminals
 
-
+<pre>
 go run dataStore.go
 
 
@@ -58,11 +58,11 @@ go run dataStore1.go
 
 
 go run dataStore2.go 
-
+</pre>
 
 When the dataStores are started, it will start three server instances 
 
-
+<pre>
 A: http://localhost:3000
 
 
@@ -70,11 +70,11 @@ B: http://localhost:3001
 
 
 C: http://localhost:3002
-
+</pre>
 
 Each of the instances will have the capability to PUT and GET data 
 
-
+<pre>
 For eg: 
 
 
@@ -86,12 +86,8 @@ For eg:
 
 3.	GET http://localhost:3000/keys
 
-
-           
-
-
 go run client.go
-
+</pre>
 
 When the client is started it prompts the following 
 
