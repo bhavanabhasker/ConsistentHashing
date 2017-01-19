@@ -1,12 +1,24 @@
-The purpose of this code is to demonstrate how consistent hashing works 
+#Consistent Hashing 
+
+##Objective 
+
+The objective of this program is to implement datastore using consistent hashing. 
+
+The client program stores the key value in one of the three nodes using consistent hashing
+
+The consistent hashing has the following three modules : 
+
+1. Client
+2. Server 
+3. DataStores 1-3 
 
 
 
 
-How to execute ?
+#How to execute ?
 
 
-Packaging :
+##Packaging :
 
 
 Client.go 
@@ -33,7 +45,7 @@ Refers to the file in the folder server
 
 
 
-Post Installation
+##Post Installation
 
 
 Execute the following in separate terminals
@@ -125,7 +137,7 @@ When option 2 is selected,
 The predefined values are inserted in the server instances as determined by the consistent hashing algorithm
 
 
-Notes:
+## Notes:
 
 
 1.	In both of above option the values are inserted using the servers endpoint PUT 
